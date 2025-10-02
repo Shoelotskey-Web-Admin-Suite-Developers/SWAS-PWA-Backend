@@ -1,0 +1,5024 @@
+[
+  {
+    "appointment_id": "APPT-00001",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T11:07:02.776+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00002",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T18:24:13.106+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00003",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T05:35:24.777+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00004",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T02:26:13.531+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00005",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T01:48:25.890+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00006",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T17:49:06.929+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00007",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T02:07:15.027+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00008",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-02T08:07:58.122+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00009",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-02T06:32:02.343+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00010",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-02T19:47:17.785+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00011",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-03T02:08:38.642+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00012",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-03T22:02:01.714+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00013",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-03T21:15:12.212+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00014",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-03T18:40:51.673+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00015",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-03T20:24:25.993+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00016",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-04T18:49:41.466+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00017",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-04T10:24:32.977+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00018",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-04T18:13:32.190+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00019",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-04T15:00:33.415+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00020",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-04T17:55:10.781+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00021",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T02:10:02.562+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00022",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T22:57:49.767+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00023",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T04:31:42.347+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00024",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T16:16:44.283+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00025",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T13:03:12.681+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00026",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T01:42:56.952+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00027",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-05T11:25:42.791+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00028",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T07:51:15.055+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00029",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T17:41:31.507+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00030",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T11:20:45.731+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00031",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T11:55:45.076+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00032",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T17:10:14.109+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00033",
+    "cust_id": "CUST-2-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T09:15:39.861+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00034",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T01:42:33.872+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00035",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T00:07:39.413+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00036",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-06T09:48:38.466+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00037",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-08T15:20:32.113+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00038",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-08T09:48:30.638+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00039",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-08T04:06:43.506+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00040",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-08T00:53:09.778+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00041",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-08T06:55:26.171+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00042",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-08T03:38:38.676+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00043",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-08T18:07:42.612+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00044",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-09T12:40:29.121+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00045",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-09T16:12:24.242+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00046",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-09T12:24:50.759+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00047",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-09T12:35:35.276+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00048",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-09T20:35:55.977+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00049",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-10T15:21:55.767+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00050",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-10T09:33:41.263+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00051",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-10T20:59:50.769+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00052",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-10T22:51:08.741+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00053",
+    "cust_id": "CUST-2-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-11T20:50:21.138+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00054",
+    "cust_id": "CUST-3-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-12T07:19:03.638+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00055",
+    "cust_id": "CUST-2-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-12T22:12:48.344+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00056",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-13T11:50:16.841+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00057",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-13T16:20:35.161+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00058",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-13T08:29:48.315+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00059",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-13T22:51:19.066+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00060",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-13T11:45:51.246+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00061",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-14T21:37:44.094+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00062",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-14T21:28:18.843+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00063",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-14T14:58:26.547+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00064",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-14T21:58:28.886+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00065",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-14T18:42:49.470+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00066",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-14T01:08:57.057+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00067",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-14T15:13:57.137+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00068",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-14T19:59:13.146+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00069",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-15T00:07:19.406+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00070",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-15T23:40:02.935+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00071",
+    "cust_id": "CUST-3-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-15T09:07:37.844+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00072",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T01:05:29.370+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00073",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T06:51:08.484+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00074",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T01:08:45.360+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00075",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T12:12:57.920+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00076",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T05:35:18.453+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00077",
+    "cust_id": "CUST-4-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T21:32:05.396+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00078",
+    "cust_id": "CUST-4-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T00:50:27.173+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00079",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-16T19:37:09.781+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00080",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-16T14:54:00.219+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00081",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-17T19:06:02.671+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00082",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-17T11:43:03.737+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00083",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-17T13:14:03.701+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00084",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-17T04:38:35.053+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00085",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-17T07:12:23.165+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00086",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-18T01:36:05.700+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00087",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-18T17:01:20.603+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00088",
+    "cust_id": "CUST-3-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-18T13:08:56.445+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00089",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-21T07:20:30.516+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00090",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-22T12:06:38.616+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00091",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-22T09:13:42.727+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00092",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-22T13:40:50.437+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00093",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-22T12:35:15.104+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00094",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-22T19:08:28.062+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00095",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-22T04:39:28.289+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00096",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-22T00:36:47.930+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00097",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-22T09:13:35.504+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00098",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-23T15:04:03.579+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00099",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-24T01:33:54.258+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00100",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-24T21:10:38.609+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00101",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-24T12:18:31.695+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00102",
+    "cust_id": "CUST-3-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-26T03:03:37.310+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00103",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-26T00:57:11.575+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00104",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-26T16:37:54.048+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00105",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-27T10:01:18.261+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00106",
+    "cust_id": "CUST-3-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-27T22:54:09.026+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00107",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-27T22:03:00.675+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00108",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-27T19:08:23.611+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00109",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-27T22:04:11.839+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00110",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-27T07:31:58.410+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00111",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-27T21:04:08.399+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00112",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-27T00:21:22.921+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00113",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-07-27T07:52:00.267+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00114",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-28T08:33:16.011+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00115",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-28T16:10:56.608+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00116",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-28T07:35:47.780+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00117",
+    "cust_id": "CUST-2-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-07-28T11:16:41.665+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00118",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-29T20:05:11.096+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00119",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-31T01:18:37.537+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00120",
+    "cust_id": "CUST-3-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-07-31T11:45:08.239+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00121",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T21:21:54.869+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00122",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T13:56:49.336+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00123",
+    "cust_id": "CUST-3-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T22:11:28.261+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00124",
+    "cust_id": "CUST-3-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T23:02:52.923+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00125",
+    "cust_id": "CUST-2-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T14:03:46.631+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00126",
+    "cust_id": "CUST-3-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T01:12:54.481+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00127",
+    "cust_id": "CUST-2-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-01T07:46:53.294+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00128",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-02T09:52:07.876+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00129",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-02T12:13:02.144+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00130",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-02T12:21:13.411+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00131",
+    "cust_id": "CUST-3-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-02T04:35:19.258+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00132",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-04T16:55:37.684+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00133",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-04T04:29:19.394+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00134",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-04T07:04:51.676+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00135",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-04T17:29:38.059+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00136",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-04T07:26:07.072+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00137",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-04T04:07:05.715+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00138",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-04T00:39:21.994+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00139",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-04T04:21:23.749+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00140",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-04T09:53:58.877+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00141",
+    "cust_id": "CUST-3-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-05T06:02:32.290+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00142",
+    "cust_id": "CUST-3-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-05T20:54:27.146+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00143",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-05T09:03:00.393+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00144",
+    "cust_id": "CUST-2-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-05T12:17:02.597+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00145",
+    "cust_id": "CUST-3-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-05T22:26:37.963+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00146",
+    "cust_id": "CUST-3-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-06T18:24:36.167+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00147",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-06T02:14:39.251+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00148",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-06T06:04:43.151+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00149",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-06T19:41:12.603+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00150",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-06T01:38:01.679+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00151",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-06T13:34:14.983+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00152",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-06T13:03:26.205+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00153",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-07T17:01:10.120+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00154",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-07T23:42:08.448+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00155",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-07T10:40:37.939+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00156",
+    "cust_id": "CUST-3-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-08T10:57:54.052+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00157",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-08T20:39:30.368+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00158",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-08T08:48:34.820+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00159",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-08T21:27:57.941+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00160",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-08T21:50:29.881+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00161",
+    "cust_id": "CUST-4-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-08T05:16:24.382+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00162",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-08T07:31:03.550+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00163",
+    "cust_id": "CUST-3-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-09T16:36:22.322+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00164",
+    "cust_id": "CUST-2-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-09T02:57:08.035+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00165",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-09T00:32:44.329+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00166",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-09T10:35:06.250+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00167",
+    "cust_id": "CUST-3-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-09T12:48:39.459+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00168",
+    "cust_id": "CUST-2-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-09T18:08:28.453+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00169",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-10T14:31:29.128+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00170",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-10T03:42:11.118+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00171",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-11T14:47:56.067+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00172",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-11T01:28:29.734+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00173",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-11T11:34:34.982+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00174",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-11T23:32:17.460+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00175",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-11T03:06:04.284+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00176",
+    "cust_id": "CUST-2-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-12T12:45:15.975+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00177",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-12T09:51:04.076+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00178",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-12T21:47:41.198+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00179",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-12T01:01:35.899+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00180",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-12T10:02:15.479+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00181",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-13T05:41:59.023+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00182",
+    "cust_id": "CUST-2-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-13T15:57:36.426+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00183",
+    "cust_id": "CUST-4-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-13T03:22:31.253+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00184",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-13T04:24:38.372+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00185",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-13T03:17:22.289+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00186",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-13T02:41:49.748+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00187",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-13T08:05:39.631+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00188",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-13T14:37:39.176+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00189",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-13T03:45:45.097+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00190",
+    "cust_id": "CUST-3-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-14T01:49:07.764+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00191",
+    "cust_id": "CUST-3-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-14T18:59:05.514+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00192",
+    "cust_id": "CUST-3-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-14T16:58:01.688+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00193",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T19:22:32.343+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00194",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T19:49:31.180+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00195",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T04:54:54.513+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00196",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T05:40:12.036+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00197",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T17:06:25.456+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00198",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T01:50:19.962+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00199",
+    "cust_id": "CUST-3-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-15T00:46:45.666+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00200",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-15T03:27:52.832+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00201",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-15T19:36:21.662+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00202",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-15T01:28:40.328+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00203",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-15T02:08:24.200+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00204",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-16T03:18:35.177+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00205",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-16T06:01:11.143+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00206",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-17T20:05:11.176+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00207",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-17T01:18:01.150+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00208",
+    "cust_id": "CUST-4-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-17T01:19:23.248+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00209",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-17T23:05:59.935+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00210",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-17T03:05:08.257+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00211",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-18T08:20:49.969+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00212",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-18T04:00:20.293+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00213",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-18T21:14:11.232+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00214",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-18T09:39:09.534+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00215",
+    "cust_id": "CUST-3-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-18T16:05:59.156+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00216",
+    "cust_id": "CUST-2-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-18T10:53:12.073+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00217",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-19T13:25:26.074+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00218",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-19T04:06:41.425+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00219",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-19T13:40:04.846+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00220",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-20T23:30:11.082+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00221",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-20T16:47:57.951+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00222",
+    "cust_id": "CUST-3-9",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-20T16:43:53.243+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00223",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-20T08:27:54.764+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00224",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-20T23:42:54.198+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00225",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-20T11:37:34.095+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00226",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-20T21:50:28.186+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00227",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-20T20:55:49.491+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00228",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-20T02:39:20.907+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00229",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-21T05:28:12.571+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00230",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-21T05:38:42.698+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00231",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-21T19:53:45.569+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00232",
+    "cust_id": "CUST-4-10",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-21T23:41:30.718+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00233",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-21T15:23:03.438+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00234",
+    "cust_id": "CUST-3-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-21T09:14:33.948+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00235",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-22T20:59:45.783+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00236",
+    "cust_id": "CUST-2-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-22T22:20:18.186+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00237",
+    "cust_id": "CUST-4-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-22T00:07:26.090+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00238",
+    "cust_id": "CUST-4-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-22T03:41:42.946+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00239",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-22T02:49:10.457+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00240",
+    "cust_id": "CUST-3-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-22T18:19:01.824+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00241",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-22T01:59:09.734+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00242",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-23T17:09:15.206+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00243",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-23T10:30:27.007+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00244",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-23T06:08:24.209+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00245",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-23T13:16:07.012+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00246",
+    "cust_id": "CUST-4-12",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-23T11:30:28.942+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00247",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-23T15:34:44.891+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00248",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-24T03:05:26.578+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00249",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-24T01:49:09.424+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00250",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-24T09:18:43.539+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00251",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-24T02:25:32.754+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00252",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-24T10:38:59.928+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00253",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-24T15:09:27.671+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00254",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-25T09:48:01.962+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00255",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-25T08:08:12.574+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00256",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-25T10:05:26.922+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00257",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-25T04:22:41.183+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00258",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-25T07:56:27.054+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00259",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-25T13:46:11.924+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00260",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-26T15:54:18.615+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00261",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T10:59:37.511+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00262",
+    "cust_id": "CUST-4-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T17:55:51.851+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00263",
+    "cust_id": "CUST-4-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T07:53:02.912+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00264",
+    "cust_id": "CUST-4-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T17:26:11.828+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00265",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T05:01:09.559+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00266",
+    "cust_id": "CUST-4-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T22:02:04.512+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00267",
+    "cust_id": "CUST-4-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-27T14:45:39.352+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00268",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-28T05:46:32.606+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00269",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-28T16:51:58.597+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00270",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-28T20:19:05.038+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00271",
+    "cust_id": "CUST-4-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-28T21:55:52.083+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00272",
+    "cust_id": "CUST-2-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-28T15:27:15.261+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00273",
+    "cust_id": "CUST-4-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-28T13:54:05.262+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00274",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-29T10:16:58.915+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00275",
+    "cust_id": "CUST-4-12",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-29T01:17:31.850+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00276",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-29T08:51:21.403+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00277",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-29T04:30:30.156+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00278",
+    "cust_id": "CUST-4-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-29T12:19:10.442+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00279",
+    "cust_id": "CUST-2-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-08-29T08:11:23.633+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00280",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-29T22:18:17.201+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00281",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-08-30T10:26:52.457+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00282",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-30T17:10:10.424+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00283",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-08-30T14:39:37.680+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00284",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-01T04:59:18.066+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00285",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-01T23:39:41.658+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00286",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-01T19:30:41.827+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00287",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-01T14:22:23.116+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00288",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-01T00:18:01.775+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00289",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-01T15:01:42.024+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00290",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-01T02:39:20.613+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00291",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-01T21:32:57.222+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00292",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-01T01:51:05.624+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00293",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-01T17:59:57.183+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00294",
+    "cust_id": "CUST-2-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-02T00:31:21.463+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00295",
+    "cust_id": "CUST-4-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-02T16:30:59.696+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00296",
+    "cust_id": "CUST-4-13",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-02T12:46:52.106+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00297",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-02T02:33:41.449+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00298",
+    "cust_id": "CUST-4-12",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-03T15:50:58.867+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00299",
+    "cust_id": "CUST-2-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-03T14:16:49.709+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00300",
+    "cust_id": "CUST-3-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-03T12:19:03.778+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00301",
+    "cust_id": "CUST-4-13",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-03T09:03:30.428+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00302",
+    "cust_id": "CUST-4-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-03T02:30:57.331+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00303",
+    "cust_id": "CUST-4-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-03T10:55:24.800+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00304",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-04T23:16:35.251+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00305",
+    "cust_id": "CUST-3-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-04T09:57:30.218+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00306",
+    "cust_id": "CUST-4-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-04T13:17:43.472+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00307",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-04T03:51:42.628+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00308",
+    "cust_id": "CUST-4-14",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-04T14:29:54.408+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00309",
+    "cust_id": "CUST-4-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-04T11:25:00.251+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00310",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-04T12:18:35.557+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00311",
+    "cust_id": "CUST-3-10",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-04T16:33:00.909+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00312",
+    "cust_id": "CUST-4-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-05T20:19:42.957+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00313",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-05T20:21:30.076+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00314",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-05T00:29:21.130+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00315",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-05T05:30:31.939+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00316",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-05T13:13:07.016+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00317",
+    "cust_id": "CUST-3-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-06T02:20:23.014+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00318",
+    "cust_id": "CUST-4-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-06T04:37:30.369+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00319",
+    "cust_id": "CUST-3-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-06T17:24:40.053+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00320",
+    "cust_id": "CUST-4-9",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-06T09:51:36.310+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00321",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-06T02:51:05.399+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00322",
+    "cust_id": "CUST-3-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-06T06:49:40.136+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00323",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-06T00:19:46.756+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00324",
+    "cust_id": "CUST-4-15",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-06T21:31:49.868+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00325",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-06T06:54:37.632+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00326",
+    "cust_id": "CUST-3-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-07T01:35:53.402+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00327",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-07T18:09:36.056+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00328",
+    "cust_id": "CUST-4-13",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-07T00:14:21.701+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00329",
+    "cust_id": "CUST-4-16",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-07T16:59:41.758+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00330",
+    "cust_id": "CUST-4-14",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-08T14:58:17.012+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00331",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-08T04:00:51.218+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00332",
+    "cust_id": "CUST-2-9",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-08T18:05:16.859+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00333",
+    "cust_id": "CUST-3-12",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-08T03:46:01.579+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00334",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-08T20:37:54.242+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00335",
+    "cust_id": "CUST-2-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-09T04:38:27.428+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00336",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-09T22:57:19.999+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00337",
+    "cust_id": "CUST-2-10",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-10T19:10:48.906+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00338",
+    "cust_id": "CUST-4-10",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-10T13:53:22.174+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00339",
+    "cust_id": "CUST-4-14",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-10T16:04:02.200+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00340",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-10T01:35:35.070+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00341",
+    "cust_id": "CUST-4-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-10T14:17:28.271+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00342",
+    "cust_id": "CUST-4-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-10T16:35:25.433+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00343",
+    "cust_id": "CUST-3-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-10T20:27:09.764+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00344",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-10T13:07:11.563+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00345",
+    "cust_id": "CUST-2-9",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-11T09:26:12.190+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00346",
+    "cust_id": "CUST-3-9",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-11T13:56:26.291+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00347",
+    "cust_id": "CUST-4-14",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-11T03:55:13.609+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00348",
+    "cust_id": "CUST-4-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-11T08:55:10.917+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00349",
+    "cust_id": "CUST-4-17",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-11T20:43:04.039+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00350",
+    "cust_id": "CUST-4-18",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-11T03:09:05.831+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00351",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-11T08:45:31.121+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00352",
+    "cust_id": "CUST-4-19",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-11T15:24:25.923+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00353",
+    "cust_id": "CUST-2-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-12T19:46:57.785+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00354",
+    "cust_id": "CUST-4-18",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-12T10:41:56.741+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00355",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-12T11:20:24.321+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00356",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-12T02:59:46.916+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00357",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-12T11:13:32.725+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00358",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-12T11:46:57.107+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00359",
+    "cust_id": "CUST-4-20",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-12T07:28:56.803+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00360",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-12T06:09:46.808+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00361",
+    "cust_id": "CUST-4-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-14T07:24:43.036+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00362",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-15T10:34:01.064+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00363",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-15T06:24:41.711+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00364",
+    "cust_id": "CUST-4-10",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-15T16:42:37.482+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00365",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-15T12:57:42.217+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00366",
+    "cust_id": "CUST-4-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-15T00:20:34.812+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00367",
+    "cust_id": "CUST-4-18",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-15T03:18:31.530+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00368",
+    "cust_id": "CUST-3-10",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-15T02:44:00.796+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00369",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-16T09:35:34.051+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00370",
+    "cust_id": "CUST-4-20",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-16T12:48:01.786+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00371",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-17T08:11:49.944+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00372",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-17T23:09:48.535+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00373",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-17T06:47:51.782+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00374",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-17T01:10:58.595+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00375",
+    "cust_id": "CUST-3-12",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-17T23:03:44.467+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00376",
+    "cust_id": "CUST-4-9",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-18T22:44:01.098+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00377",
+    "cust_id": "CUST-3-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-18T15:03:03.157+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00378",
+    "cust_id": "CUST-2-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-18T11:21:01.733+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00379",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-18T02:46:34.248+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00380",
+    "cust_id": "CUST-3-13",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-19T23:43:39.325+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00381",
+    "cust_id": "CUST-2-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-19T21:17:00.301+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00382",
+    "cust_id": "CUST-3-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-19T07:14:22.095+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00383",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-19T08:58:15.827+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00384",
+    "cust_id": "CUST-3-14",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-19T14:50:00.325+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00385",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-19T20:23:38.814+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00386",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-19T21:03:11.548+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00387",
+    "cust_id": "CUST-3-7",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-19T11:06:32.917+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00388",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-19T10:49:20.919+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00389",
+    "cust_id": "CUST-4-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-20T11:10:30.958+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00390",
+    "cust_id": "CUST-4-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-20T13:45:56.407+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00391",
+    "cust_id": "CUST-3-15",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-20T15:48:36.147+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00392",
+    "cust_id": "CUST-4-5",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-20T09:58:20.373+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00393",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-21T08:10:36.571+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00394",
+    "cust_id": "CUST-2-11",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-21T05:37:55.317+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00395",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-21T15:49:10.514+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00396",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-21T11:19:20.056+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00397",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-21T09:52:15.786+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00398",
+    "cust_id": "CUST-2-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-21T17:10:30.006+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00399",
+    "cust_id": "CUST-3-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-21T18:45:01.025+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00400",
+    "cust_id": "CUST-4-15",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-21T14:55:39.864+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00401",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-21T16:23:56.780+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00402",
+    "cust_id": "CUST-4-10",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-21T17:50:15.476+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00403",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-22T11:10:56.450+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00404",
+    "cust_id": "CUST-2-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-22T10:25:19.197+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00405",
+    "cust_id": "CUST-2-10",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-22T01:32:12.626+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00406",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-22T10:18:14.114+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00407",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-23T10:01:41.874+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00408",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-23T15:59:49.896+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00409",
+    "cust_id": "CUST-3-10",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-23T17:25:41.336+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00410",
+    "cust_id": "CUST-2-12",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-23T18:28:34.983+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00411",
+    "cust_id": "CUST-4-13",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-23T15:26:15.654+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00412",
+    "cust_id": "CUST-3-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-23T09:19:17.170+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00413",
+    "cust_id": "CUST-4-19",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-23T13:16:24.409+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00414",
+    "cust_id": "CUST-2-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-23T11:37:51.872+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00415",
+    "cust_id": "CUST-3-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-24T19:59:37.723+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00416",
+    "cust_id": "CUST-2-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-24T05:08:17.970+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00417",
+    "cust_id": "CUST-3-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-24T07:50:44.714+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00418",
+    "cust_id": "CUST-4-13",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-24T05:09:21.415+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00419",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-24T22:03:54.963+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00420",
+    "cust_id": "CUST-3-14",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-24T12:01:39.985+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00421",
+    "cust_id": "CUST-3-15",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-24T08:00:31.869+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00422",
+    "cust_id": "CUST-4-20",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-24T22:08:04.719+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00423",
+    "cust_id": "CUST-3-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-25T02:43:31.463+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00424",
+    "cust_id": "CUST-3-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-25T07:28:17.351+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00425",
+    "cust_id": "CUST-3-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-25T04:20:59.260+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00426",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-26T04:24:29.633+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00427",
+    "cust_id": "CUST-3-13",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-26T07:33:44.082+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00428",
+    "cust_id": "CUST-4-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-26T12:24:39.790+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00429",
+    "cust_id": "CUST-3-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-26T03:32:22.389+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00430",
+    "cust_id": "CUST-4-17",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-26T11:34:21.168+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00431",
+    "cust_id": "CUST-3-14",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-26T10:20:43.866+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00432",
+    "cust_id": "CUST-2-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-27T01:53:11.144+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00433",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-27T16:47:37.525+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00434",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-27T08:11:15.067+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00435",
+    "cust_id": "CUST-2-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-27T15:22:54.677+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00436",
+    "cust_id": "CUST-3-14",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-27T12:00:59.438+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00437",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-28T09:55:34.952+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00438",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-28T10:15:52.135+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00439",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-09-28T18:06:21.758+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00440",
+    "cust_id": "CUST-3-16",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-28T11:11:10.400+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00441",
+    "cust_id": "CUST-4-17",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-28T18:29:13.909+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00442",
+    "cust_id": "CUST-4-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-28T05:04:35.318+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00443",
+    "cust_id": "CUST-2-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-28T00:20:16.979+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00444",
+    "cust_id": "CUST-2-10",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-28T08:56:02.170+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00445",
+    "cust_id": "CUST-3-17",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-09-29T13:58:46.851+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00446",
+    "cust_id": "CUST-3-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-09-29T06:44:04.804+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Approved"
+  },
+  {
+    "appointment_id": "APPT-00447",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-01T09:22:33.156+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00448",
+    "cust_id": "CUST-2-13",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-01T20:23:50.117+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00449",
+    "cust_id": "CUST-4-13",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-02T11:45:28.796+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00450",
+    "cust_id": "CUST-3-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-02T17:21:26.357+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00451",
+    "cust_id": "CUST-3-18",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-02T05:12:45.773+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00452",
+    "cust_id": "CUST-3-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-02T15:06:52.644+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00453",
+    "cust_id": "CUST-3-19",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-02T15:17:48.645+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00454",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-02T06:15:35.969+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00455",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-02T17:53:00.972+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00456",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-02T02:01:00.280+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00457",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-03T06:29:34.625+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00458",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-03T03:50:48.150+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00459",
+    "cust_id": "CUST-4-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-03T23:31:16.853+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00460",
+    "cust_id": "CUST-3-19",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-03T17:41:20.419+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00461",
+    "cust_id": "CUST-4-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-03T04:17:46.235+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00462",
+    "cust_id": "CUST-4-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-03T17:30:40.569+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00463",
+    "cust_id": "CUST-4-1",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-04T19:48:03.456+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00464",
+    "cust_id": "CUST-4-21",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-04T09:46:56.094+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00465",
+    "cust_id": "CUST-4-22",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-04T20:27:23.812+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00466",
+    "cust_id": "CUST-4-23",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-04T11:32:10.300+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00467",
+    "cust_id": "CUST-2-14",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-05T22:01:06.012+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00468",
+    "cust_id": "CUST-4-21",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-05T01:06:58.648+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00469",
+    "cust_id": "CUST-3-20",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-05T03:48:02.294+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00470",
+    "cust_id": "CUST-3-15",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-05T10:56:46.785+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00471",
+    "cust_id": "CUST-3-21",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-06T00:12:31.745+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00472",
+    "cust_id": "CUST-3-19",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-06T22:20:33.074+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00473",
+    "cust_id": "CUST-4-24",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-06T20:51:20.986+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00474",
+    "cust_id": "CUST-4-22",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-07T14:17:19.819+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00475",
+    "cust_id": "CUST-2-13",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-07T07:13:35.110+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00476",
+    "cust_id": "CUST-2-14",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-08T15:36:42.054+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00477",
+    "cust_id": "CUST-3-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-08T22:25:43.928+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00478",
+    "cust_id": "CUST-4-25",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-08T15:36:35.484+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00479",
+    "cust_id": "CUST-4-22",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-08T05:50:57.520+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00480",
+    "cust_id": "CUST-2-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-08T21:47:55.185+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00481",
+    "cust_id": "CUST-4-2",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-08T10:53:26.387+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00482",
+    "cust_id": "CUST-2-12",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-09T06:58:52.005+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00483",
+    "cust_id": "CUST-2-15",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-09T20:38:16.359+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00484",
+    "cust_id": "CUST-4-15",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-09T08:04:04.903+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00485",
+    "cust_id": "CUST-3-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-09T13:38:05.717+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00486",
+    "cust_id": "CUST-4-12",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-09T00:08:50.986+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00487",
+    "cust_id": "CUST-4-17",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-09T18:58:32.985+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00488",
+    "cust_id": "CUST-3-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-09T15:35:43.045+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00489",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-09T19:45:22.352+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00490",
+    "cust_id": "CUST-4-11",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-09T00:50:41.256+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00491",
+    "cust_id": "CUST-4-12",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-10T00:58:54.850+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00492",
+    "cust_id": "CUST-4-17",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-10T17:35:31.762+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00493",
+    "cust_id": "CUST-4-18",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-11T22:58:10.662+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00494",
+    "cust_id": "CUST-4-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-11T05:00:30.327+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00495",
+    "cust_id": "CUST-3-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T10:48:00.170+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00496",
+    "cust_id": "CUST-3-20",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T05:29:14.576+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00497",
+    "cust_id": "CUST-2-12",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T00:49:27.113+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00498",
+    "cust_id": "CUST-2-16",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T17:41:05.088+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00499",
+    "cust_id": "CUST-3-22",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T00:14:12.373+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00500",
+    "cust_id": "CUST-3-17",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T19:27:12.801+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00501",
+    "cust_id": "CUST-2-2",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T13:42:26.789+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00502",
+    "cust_id": "CUST-3-20",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-12T08:15:23.688+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00503",
+    "cust_id": "CUST-4-21",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-12T23:51:08.251+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00504",
+    "cust_id": "CUST-4-16",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-12T11:50:30.634+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00505",
+    "cust_id": "CUST-3-1",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-12T15:59:06.292+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00506",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-13T09:35:33.368+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00507",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-13T17:03:41.920+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00508",
+    "cust_id": "CUST-4-25",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-13T12:25:33.091+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00509",
+    "cust_id": "CUST-4-18",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-13T05:53:23.907+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00510",
+    "cust_id": "CUST-4-26",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-13T22:45:15.485+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00511",
+    "cust_id": "CUST-4-21",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-13T19:32:10.039+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00512",
+    "cust_id": "CUST-2-12",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-13T20:39:53.037+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00513",
+    "cust_id": "CUST-4-20",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-14T11:09:45.681+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00514",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-14T03:52:17.746+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00515",
+    "cust_id": "CUST-4-14",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-15T09:36:43.964+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00516",
+    "cust_id": "CUST-4-1",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-15T11:36:19.011+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00517",
+    "cust_id": "CUST-2-4",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-15T00:31:00.079+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00518",
+    "cust_id": "CUST-2-14",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-15T19:13:22.426+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00519",
+    "cust_id": "CUST-4-27",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-15T05:34:42.763+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00520",
+    "cust_id": "CUST-4-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-15T01:34:18.098+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00521",
+    "cust_id": "CUST-4-3",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-16T09:33:29.041+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00522",
+    "cust_id": "CUST-3-5",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-16T23:40:52.329+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00523",
+    "cust_id": "CUST-2-17",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-16T14:27:11.301+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00524",
+    "cust_id": "CUST-2-18",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-16T03:55:44.371+00:00",
+    "time_start": "13:00",
+    "time_end": "13:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00525",
+    "cust_id": "CUST-4-21",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-17T06:02:33.323+00:00",
+    "time_start": "12:30",
+    "time_end": "13:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00526",
+    "cust_id": "CUST-4-21",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-17T16:12:01.313+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00527",
+    "cust_id": "CUST-4-8",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-17T14:47:19.553+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00528",
+    "cust_id": "CUST-2-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-17T02:16:54.851+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00529",
+    "cust_id": "CUST-3-23",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-17T10:47:02.357+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00530",
+    "cust_id": "CUST-3-23",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-17T05:26:03.036+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00531",
+    "cust_id": "CUST-4-28",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-17T07:05:44.342+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00532",
+    "cust_id": "CUST-3-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-18T12:18:37.329+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00533",
+    "cust_id": "CUST-4-7",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-18T09:38:59.440+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00534",
+    "cust_id": "CUST-4-27",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-18T19:13:16.750+00:00",
+    "time_start": "15:00",
+    "time_end": "15:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00535",
+    "cust_id": "CUST-4-5",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-18T17:49:34.848+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00536",
+    "cust_id": "CUST-4-9",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-18T04:16:47.976+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00537",
+    "cust_id": "CUST-2-15",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-18T23:53:41.760+00:00",
+    "time_start": "17:30",
+    "time_end": "18:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00538",
+    "cust_id": "CUST-4-28",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-18T06:36:39.923+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00539",
+    "cust_id": "CUST-4-25",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-19T05:08:18.990+00:00",
+    "time_start": "10:00",
+    "time_end": "10:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00540",
+    "cust_id": "CUST-2-15",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-19T13:16:12.802+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00541",
+    "cust_id": "CUST-4-3",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-19T13:15:19.165+00:00",
+    "time_start": "14:00",
+    "time_end": "14:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00542",
+    "cust_id": "CUST-2-16",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-19T22:04:58.216+00:00",
+    "time_start": "09:30",
+    "time_end": "10:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00543",
+    "cust_id": "CUST-3-13",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-19T07:42:38.614+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00544",
+    "cust_id": "CUST-4-6",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-20T17:54:23.281+00:00",
+    "time_start": "13:30",
+    "time_end": "14:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00545",
+    "cust_id": "CUST-4-11",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-20T14:34:55.471+00:00",
+    "time_start": "09:00",
+    "time_end": "09:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00546",
+    "cust_id": "CUST-2-4",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-20T18:36:43.938+00:00",
+    "time_start": "16:00",
+    "time_end": "16:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00547",
+    "cust_id": "CUST-4-12",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-20T15:22:14.303+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00548",
+    "cust_id": "CUST-3-20",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T08:55:53.439+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00549",
+    "cust_id": "CUST-3-15",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T02:33:25.705+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00550",
+    "cust_id": "CUST-2-19",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T15:39:57.054+00:00",
+    "time_start": "14:30",
+    "time_end": "15:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00551",
+    "cust_id": "CUST-4-6",
+    "branch_id": "SMVAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T18:43:03.406+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00552",
+    "cust_id": "CUST-3-7",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T06:46:29.130+00:00",
+    "time_start": "17:00",
+    "time_end": "17:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00553",
+    "cust_id": "CUST-2-8",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T13:36:30.057+00:00",
+    "time_start": "10:30",
+    "time_end": "11:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00554",
+    "cust_id": "CUST-3-10",
+    "branch_id": "VAL-B-NCR",
+    "date_for_inquiry": "2025-10-21T07:17:35.348+00:00",
+    "time_start": "11:00",
+    "time_end": "11:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00555",
+    "cust_id": "CUST-3-21",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-21T18:46:16.843+00:00",
+    "time_start": "16:30",
+    "time_end": "17:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00556",
+    "cust_id": "CUST-2-16",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-21T05:45:43.886+00:00",
+    "time_start": "12:00",
+    "time_end": "12:30",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00557",
+    "cust_id": "CUST-4-29",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-21T18:33:40.560+00:00",
+    "time_start": "11:30",
+    "time_end": "12:00",
+    "status": "Pending"
+  },
+  {
+    "appointment_id": "APPT-00558",
+    "cust_id": "CUST-2-3",
+    "branch_id": "SMGRA-B-NCR",
+    "date_for_inquiry": "2025-10-21T07:20:16.031+00:00",
+    "time_start": "15:30",
+    "time_end": "16:00",
+    "status": "Pending"
+  }
+]

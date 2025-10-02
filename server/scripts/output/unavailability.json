@@ -1,0 +1,29 @@
+[
+  {
+    "unavailability_id": "UNAV-001",
+    "branch_id": "SMVAL-B-NCR",
+    "date_unavailable": "2025-08-12T07:30:45.241+00:00",
+    "type": "Partial Day",
+    "time_start": "14:00",
+    "time_end": "18:00",
+    "note": "Partial maintenance"
+  },
+  {
+    "unavailability_id": "UNAV-002",
+    "branch_id": "SMVAL-B-NCR",
+    "date_unavailable": "2025-09-30T02:56:53.690+00:00",
+    "type": "Partial Day",
+    "time_start": "14:00",
+    "time_end": "18:00",
+    "note": "Partial maintenance"
+  },
+  {
+    "unavailability_id": "UNAV-003",
+    "branch_id": "SMGRA-B-NCR",
+    "date_unavailable": "2025-08-18T11:11:41.573+00:00",
+    "type": "Full Day",
+    "time_start": null,
+    "time_end": null,
+    "note": "Inventory"
+  }
+]
