@@ -55,10 +55,21 @@ interface ServiceRequestInput {
 }
 
 // ------------------- ID generators -------------------
-const generateCustomerId = async (branch_number: number): Promise<string> => {
-  const lastCust = await Customer.find({ cust_id: new RegExp(`CUST-${branch_number}-`) })
+const generateCustomerId = async (
+  branch_number: number,
+  session?: mongoose.ClientSession
+): Promise<string> => {
+  const lastCustQuery = Customer.find({ cust_id: new RegExp(`^CUST-${branch_number}-\\d+$`) })
+    .collation({ locale: "en", numericOrdering: true })
     .sort({ cust_id: -1 })
     .limit(1);
+
+  if (session) {
+    lastCustQuery.session(session);
+  }
+
+  const lastCust = await lastCustQuery;
+
   const lastNumber = lastCust[0] ? parseInt(lastCust[0].cust_id.split("-")[2], 10) : 0;
   // Use plain incremented number without zero-padding for the customer id suffix
   return `CUST-${branch_number}-${lastNumber + 1}`;
@@ -183,7 +194,7 @@ export const createServiceRequest = async (req: Request, res: Response) => {
     }).session(session);
 
     if (!customer) {
-      const cust_id = await generateCustomerId(branch_number);
+  const cust_id = await generateCustomerId(branch_number, session);
       customer = new Customer({
         cust_id,
         cust_name: data.cust_name,
