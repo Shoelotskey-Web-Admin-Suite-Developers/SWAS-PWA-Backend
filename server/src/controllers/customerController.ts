@@ -12,6 +12,116 @@ export const getCustomers = async (req: Request, res: Response): Promise<void> =
   }
 };
 
+// Get computed customer summaries (balance, current services, status)
+export const getCustomerSummaries = async (_req: Request, res: Response): Promise<void> => {
+  try {
+    const summaries = await Customer.aggregate([
+      {
+        $lookup: {
+          from: "transactions",
+          let: { customerId: "$cust_id" },
+          pipeline: [
+            {
+              $match: {
+                $expr: { $eq: ["$cust_id", "$$customerId"] },
+              },
+            },
+            {
+              $project: {
+                balanceContribution: {
+                  $let: {
+                    vars: {
+                      diff: {
+                        $subtract: [
+                          { $ifNull: ["$total_amount", 0] },
+                          { $ifNull: ["$amount_paid", 0] },
+                        ],
+                      },
+                    },
+                    in: {
+                      $cond: [{ $gt: ["$$diff", 0] }, "$$diff", 0],
+                    },
+                  },
+                },
+              },
+            },
+            {
+              $group: {
+                _id: null,
+                totalBalance: { $sum: "$balanceContribution" },
+              },
+            },
+          ],
+          as: "transactionSummary",
+        },
+      },
+      {
+        $lookup: {
+          from: "line_items",
+          let: { customerId: "$cust_id" },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $and: [
+                    { $eq: ["$cust_id", "$$customerId"] },
+                    { $ne: ["$current_status", "Picked Up"] },
+                  ],
+                },
+              },
+            },
+            {
+              $count: "currentServiceCount",
+            },
+          ],
+          as: "lineItemSummary",
+        },
+      },
+      {
+        $addFields: {
+          balance: {
+            $ifNull: [{ $arrayElemAt: ["$transactionSummary.totalBalance", 0] }, 0],
+          },
+          currentServiceCount: {
+            $ifNull: [{ $arrayElemAt: ["$lineItemSummary.currentServiceCount", 0] }, 0],
+          },
+        },
+      },
+      {
+        $addFields: {
+          status: {
+            $cond: [{ $gt: ["$currentServiceCount", 0] }, "Active", "Dormant"],
+          },
+        },
+      },
+      {
+        $project: {
+          _id: 0,
+          cust_id: 1,
+          cust_name: 1,
+          cust_bdate: 1,
+          cust_address: 1,
+          cust_email: 1,
+          cust_contact: 1,
+          total_services: 1,
+          total_expenditure: 1,
+          balance: 1,
+          currentServiceCount: 1,
+          status: 1,
+        },
+      },
+      {
+        $sort: { cust_name: 1 },
+      },
+    ]);
+
+    res.status(200).json(summaries);
+  } catch (error) {
+    console.error("Error computing customer summaries:", error);
+    res.status(500).json({ message: "Error computing customer summaries", error });
+  }
+};
+
 // Get customer by ID
 export const getCustomerById = async (req: Request, res: Response): Promise<void> => {
   try {
