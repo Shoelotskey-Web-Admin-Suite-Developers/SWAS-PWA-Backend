@@ -118,6 +118,13 @@ const validateServiceRequestInput = (data: ServiceRequestInput): string[] => {
   if (!PAYMENT_MODE_ENUM.includes(data.payment_mode))
     errors.push(`payment_mode must be one of ${PAYMENT_MODE_ENUM.join(", ")}`);
 
+  if (data.cust_bdate) {
+    const parsedDate = new Date(data.cust_bdate);
+    if (Number.isNaN(parsedDate.getTime())) {
+      errors.push("cust_bdate must be a valid date string");
+    }
+  }
+
   if (!Array.isArray(data.lineItems) || data.lineItems.length === 0) {
     errors.push("At least one line item is required");
   } else {
@@ -153,6 +160,10 @@ export const createServiceRequest = async (req: Request, res: Response) => {
 
   try {
     const data: ServiceRequestInput = req.body;
+    const rawBirthdate =
+      data.cust_bdate && data.cust_bdate !== ""
+        ? new Date(data.cust_bdate)
+        : null;
 
     // Validate input shape
     const validationErrors = validateServiceRequestInput(data);
@@ -161,6 +172,24 @@ export const createServiceRequest = async (req: Request, res: Response) => {
       session.endSession();
       return res.status(400).json({ success: false, errors: validationErrors });
     }
+
+    const normalizedBirthdate =
+      rawBirthdate && !Number.isNaN(rawBirthdate.getTime())
+        ? new Date(
+            Date.UTC(
+              rawBirthdate.getUTCFullYear(),
+              rawBirthdate.getUTCMonth(),
+              rawBirthdate.getUTCDate()
+            )
+          )
+        : null;
+
+    const birthdateRange = normalizedBirthdate
+      ? {
+          $gte: normalizedBirthdate,
+          $lt: new Date(normalizedBirthdate.getTime() + 24 * 60 * 60 * 1000),
+        }
+      : null;
 
     // Fetch branch
     const branch = await Branch.findOne({ branch_id: data.branch_id }).session(session);
@@ -188,17 +217,24 @@ export const createServiceRequest = async (req: Request, res: Response) => {
     }
 
     // Check or create customer
-    let customer = await Customer.findOne({
+    const customerQuery: Record<string, unknown> = {
       cust_name: data.cust_name,
-      cust_bdate: data.cust_bdate || null,
-    }).session(session);
+    };
+
+    if (birthdateRange) {
+      customerQuery.cust_bdate = birthdateRange;
+    } else {
+      customerQuery.$or = [{ cust_bdate: null }, { cust_bdate: { $exists: false } }];
+    }
+
+    let customer = await Customer.findOne(customerQuery).session(session);
 
     if (!customer) {
-  const cust_id = await generateCustomerId(branch_number, session);
+      const cust_id = await generateCustomerId(branch_number, session);
       customer = new Customer({
         cust_id,
         cust_name: data.cust_name,
-        cust_bdate: data.cust_bdate || null,
+        cust_bdate: normalizedBirthdate,
         cust_address: data.cust_address || null,
         cust_email: data.cust_email || null,
         cust_contact: data.cust_contact || null,
