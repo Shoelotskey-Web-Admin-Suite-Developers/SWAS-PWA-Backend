@@ -1,6 +1,7 @@
 import { Request, Response } from "express"
 import { DailyRevenue } from "../models/DailyRevenue"
 import { Forecast } from "../models/Forecast"
+import { WeeklyRevenue } from "../models/WeeklyRevenue"
 import { MonthlyRevenue } from "../models/MonthlyRevenue"
 import { LineItem } from "../models/LineItem"
 import { Service } from "../models/Service"
@@ -28,7 +29,9 @@ export const getForecast = async (req: Request, res: Response) => {
     // Transform each record to a normalized dynamic shape:
     // { date: 'yyyy-MM-dd', total: number, branches: { [branch_id]: value } }
     const transformed = records.map((r: any) => {
-      const dateStr = new Date(r.date).toISOString().slice(0,10)
+      // normalize date field; forecast may contain weekly forecasts with week_start
+      const rawDate = r.date ?? r.week_start
+      const dateStr = rawDate ? new Date(rawDate).toISOString().slice(0,10) : null
       const branchEntries: Record<string, number> = {}
 
       // If record already has a branches object/map structure, copy numeric values
@@ -214,6 +217,99 @@ export const getTopServices = async (req: Request, res: Response) => {
   } catch (err) {
     console.error("Error fetching top services:", err)
     return res.status(500).json({ error: "Failed to fetch top services" })
+  }
+}
+
+export const getWeeklyRevenue = async (req: Request, res: Response) => {
+  try {
+    // Return all weekly revenue records sorted by week_start ascending
+    const records = await WeeklyRevenue.find().sort({ week_start: 1 }).lean()
+    if (!records || records.length === 0) return res.status(200).json([])
+
+    const transformed = records.map((r: any) => {
+      const weekStr = new Date(r.week_start).toISOString().slice(0,10)
+      const branchEntries: Record<string, number> = {}
+
+      if (r.branches && typeof r.branches === 'object') {
+        if (Array.isArray(r.branches)) {
+          r.branches.forEach((el: any) => {
+            if (!el || typeof el !== 'object') return
+            const id = el.branch_id || el.code || el.id || el.branch || el.name
+            const val = el.value ?? el.amount ?? el.total ?? el.revenue
+            if (id && typeof val === 'number') branchEntries[id] = val || 0
+          })
+        } else {
+          Object.entries(r.branches).forEach(([bk, bv]) => {
+            if (typeof bv === 'number') branchEntries[bk] = (bv as number) || 0
+          })
+        }
+      }
+
+      Object.keys(r).forEach(k => {
+        if (k === 'week_start' || k === '_id' || k === '__v' || k === 'createdAt' || k === 'updatedAt' || k === 'branches' || k === 'total') return
+        if (k.includes('-') && typeof r[k] === 'number') {
+          if (branchEntries[k] == null) branchEntries[k] = r[k] || 0
+        }
+      })
+
+      const total = typeof r.total === 'number'
+        ? r.total
+        : Object.values(branchEntries).reduce((s,v)=> s + (v||0), 0)
+
+      return { week_start: weekStr, total, branches: branchEntries }
+    })
+
+    return res.status(200).json(transformed)
+  } catch (err) {
+    console.error("Error fetching weekly revenue:", err)
+    return res.status(500).json({ error: "Failed to fetch weekly revenue" })
+  }
+}
+
+export const getWeeklyForecast = async (req: Request, res: Response) => {
+  try {
+    // Forecast collection may contain weekly forecasts stored under week_start or date
+    const records = await Forecast.find().sort({ date: 1 }).lean()
+    if (!records || records.length === 0) return res.status(200).json([])
+
+    const transformed = records.map((r: any) => {
+      const rawDate = r.week_start ?? r.date
+      const weekStr = rawDate ? new Date(rawDate).toISOString().slice(0,10) : null
+      const branchEntries: Record<string, number> = {}
+
+      if (r.branches && typeof r.branches === 'object') {
+        if (Array.isArray(r.branches)) {
+          r.branches.forEach((el: any) => {
+            if (!el || typeof el !== 'object') return
+            const id = el.branch_id || el.code || el.id || el.branch || el.name
+            const val = el.value ?? el.amount ?? el.total ?? el.revenue
+            if (id && typeof val === 'number') branchEntries[id] = val || 0
+          })
+        } else {
+          Object.entries(r.branches).forEach(([bk, bv]) => {
+            if (typeof bv === 'number') branchEntries[bk] = (bv as number) || 0
+          })
+        }
+      }
+
+      Object.keys(r).forEach(k => {
+        if (k === 'date' || k === 'week_start' || k === '_id' || k === '__v' || k === 'createdAt' || k === 'updatedAt' || k === 'branches' || k === 'total') return
+        if (k.includes('-') && typeof r[k] === 'number') {
+          if (branchEntries[k] == null) branchEntries[k] = r[k] || 0
+        }
+      })
+
+      const total = typeof r.total === 'number'
+        ? r.total
+        : Object.values(branchEntries).reduce((s,v)=> s + (v||0), 0)
+
+      return { week_start: weekStr, total, branches: branchEntries }
+    })
+
+    return res.status(200).json(transformed)
+  } catch (err) {
+    console.error("Error fetching weekly forecast:", err)
+    return res.status(500).json({ error: "Failed to fetch weekly forecast" })
   }
 }
 
