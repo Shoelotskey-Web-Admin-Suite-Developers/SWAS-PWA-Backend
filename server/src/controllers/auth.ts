@@ -18,7 +18,7 @@ export const login = async (req: Request, res: Response) => {
     }
 
     // Find user by user_id
-    const user = await User.findOne({ user_id });
+  const user = await User.findOne({ user_id });
     if (!user) {
       return res.status(401).json({ message: "Invalid credentials" });
     }
@@ -42,6 +42,7 @@ export const login = async (req: Request, res: Response) => {
       user: {
         user_id: user.user_id,
         branch_id: user.branch_id,
+        position: user.position ?? null,
       },
     });
   } catch (err) {

@@ -4,7 +4,7 @@ import { User } from "../models/Users";
 
 export const addUser = async (req: Request, res: Response) => {
   try {
-    const { user_id, branch_id, password } = req.body;
+    const { user_id, branch_id, password, position } = req.body;
 
     if (!user_id || !branch_id || !password) {
       return res.status(400).json({ message: "All fields are required." });
@@ -23,6 +23,7 @@ export const addUser = async (req: Request, res: Response) => {
       user_id,
       branch_id,
       password: hashedPassword,
+      position: position ?? undefined,
     });
 
     await newUser.save();
@@ -32,6 +33,7 @@ export const addUser = async (req: Request, res: Response) => {
       user: {
         user_id: newUser.user_id,
         branch_id: newUser.branch_id,
+        position: newUser.position,
       },
     });
   } catch (error) {
@@ -77,7 +79,7 @@ export const deleteUser = async (req: Request, res: Response) => {
 export const editUser = async (req: Request, res: Response) => {
   try {
     const { user_id } = req.params; // identify the user
-    const { branch_id, password } = req.body;
+    const { branch_id, password, position } = req.body;
 
     if (!user_id) {
       return res.status(400).json({ message: "User ID is required." });
@@ -88,8 +90,9 @@ export const editUser = async (req: Request, res: Response) => {
       return res.status(404).json({ message: "User not found." });
     }
 
-    if (branch_id) user.branch_id = branch_id;
+  if (branch_id) user.branch_id = branch_id;
     if (password) user.password = await bcrypt.hash(password, 10);
+  if (typeof position === 'string' && position.trim().length > 0) user.position = position.trim();
 
     await user.save();
 
@@ -98,10 +101,31 @@ export const editUser = async (req: Request, res: Response) => {
       user: {
         user_id: user.user_id,
         branch_id: user.branch_id,
+        position: user.position,
       },
     });
   } catch (error) {
     console.error("Error updating user:", error);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
+// Get a user's position by user_id
+export const getUserPosition = async (req: Request, res: Response) => {
+  try {
+    const { user_id } = req.params;
+    if (!user_id) {
+      return res.status(400).json({ message: "User ID is required." });
+    }
+
+    const user = await User.findOne({ user_id }, { user_id: 1, position: 1, _id: 0 });
+    if (!user) {
+      return res.status(404).json({ message: "User not found." });
+    }
+
+    return res.status(200).json({ user_id: user.user_id, position: user.position ?? null });
+  } catch (error) {
+    console.error("Error fetching user position:", error);
     return res.status(500).json({ message: "Server error" });
   }
 };
