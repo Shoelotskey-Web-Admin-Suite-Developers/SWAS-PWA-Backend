@@ -6,12 +6,14 @@ import {
   getCustomerByNameAndBdate, 
   deleteCustomer, 
   updateCustomer, 
-  deleteAllCustomers 
+  deleteAllCustomers,
+  getArchivedCustomers 
 } from "../controllers/customerController";
 
 const router = Router();
 
 router.get("/", getCustomers);
+router.get("/archived", getArchivedCustomers);
 router.get("/search/by-name-birthday", getCustomerByNameAndBdate);
 router.get("/:cust_id", getCustomerById);
 router.put("/:cust_id", updateCustomer);

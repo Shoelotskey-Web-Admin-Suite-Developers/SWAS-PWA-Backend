@@ -10,6 +10,7 @@ export interface ICustomer extends Document {
   cust_contact?: string;
   total_services: number;
   total_expenditure: number;
+  is_archive: boolean;
 }
 
 const CustomerSchema: Schema = new Schema<ICustomer>(
@@ -22,6 +23,7 @@ const CustomerSchema: Schema = new Schema<ICustomer>(
     cust_contact: { type: String, default: null },
     total_services: { type: Number, default: 0 },
     total_expenditure: { type: Number, default: 0.0 },
+    is_archive: { type: Boolean, default: false },
   }
 );
 
