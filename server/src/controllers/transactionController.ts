@@ -231,9 +231,11 @@ export const updateTransaction = async (req: Request, res: Response) => {
 };
 
 // GET /transactions
-export const getAllTransactions = async (_req: Request, res: Response) => {
+export const getAllTransactions = async (req: Request, res: Response) => {
   try {
-    const transactions = await Transaction.find();
+    const { includeArchived } = req.query;
+    const filter = includeArchived === 'true' ? {} : { is_archive: { $ne: true } };
+    const transactions = await Transaction.find(filter);
     res.status(200).json(transactions);
   } catch (error) {
     console.error("Error fetching all transactions:", error);

@@ -22,6 +22,7 @@ export interface ILineItem extends Document {
   before_img?: string | null;
   after_img?: string | null;
   pickUpNotice?: Date | null; // <-- added field
+  is_archive?: boolean; // Archive flag
 }
 
 const LineItemServiceSchema: Schema = new Schema<ILineItemService>(
@@ -49,6 +50,7 @@ const LineItemSchema: Schema = new Schema<ILineItem>(
     before_img: { type: String, default: null },
     after_img: { type: String, default: null },
     pickUpNotice: { type: Date, default: null }, // <-- added field, default null
+    is_archive: { type: Boolean, default: false },
   },
   {
     toJSON: { virtuals: true },

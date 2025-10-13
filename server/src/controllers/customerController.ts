@@ -15,9 +15,16 @@ export const getCustomers = async (req: Request, res: Response): Promise<void> =
 };
 
 // Get computed customer summaries (balance, current services, status)
-export const getCustomerSummaries = async (_req: Request, res: Response): Promise<void> => {
+export const getCustomerSummaries = async (req: Request, res: Response): Promise<void> => {
   try {
+    const { includeArchived } = req.query;
+    
+    const matchStage = includeArchived === 'true' ? {} : { is_archive: { $ne: true } };
+    
     const summaries = await Customer.aggregate([
+      {
+        $match: matchStage
+      },
       {
         $lookup: {
           from: "transactions",
@@ -110,6 +117,7 @@ export const getCustomerSummaries = async (_req: Request, res: Response): Promis
           balance: 1,
           currentServiceCount: 1,
           status: 1,
+          is_archive: 1,
         },
       },
       {
