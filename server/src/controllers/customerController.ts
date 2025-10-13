@@ -176,6 +176,34 @@ export const getCustomerByNameAndBdate = async (req: Request, res: Response): Pr
 };
 
 
+// Get customer by name and phone
+export const getCustomerByNameAndPhone = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { cust_name, cust_contact } = req.query;
+
+    if (!cust_name || !cust_contact) {
+      res.status(400).json({ message: "cust_name and cust_contact are required" });
+      return;
+    }
+
+    // Search by case-insensitive exact name and exact phone/contact
+    const customer = await Customer.findOne({
+      cust_name: { $regex: new RegExp(`^${cust_name}$`, "i") },
+      cust_contact: String(cust_contact),
+    });
+
+    if (!customer) {
+      res.status(404).json({ message: "Customer not found" });
+      return;
+    }
+
+    res.status(200).json(customer);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching customer by name and phone", error });
+  }
+};
+
+
 
 // Delete customer by cust_id
 export const deleteCustomer = async (req: Request, res: Response): Promise<void> => {
