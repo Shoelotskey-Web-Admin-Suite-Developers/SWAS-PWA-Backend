@@ -17,6 +17,7 @@ export interface ITransaction extends Document {
   payment_status: "NP" | "PAID" | "PARTIAL";
   payments: string[]; // FK -> Payment.payment_id
   payment_mode?: string | string[]; // can be a single mode or comma-separated list
+  is_archive?: boolean; // Archive flag
 }
 
 const TransactionSchema: Schema = new Schema<ITransaction>(
@@ -46,6 +47,7 @@ const TransactionSchema: Schema = new Schema<ITransaction>(
         ref: "Payment", // links to Payment.payment_id
       },
     ],
+    is_archive: { type: Boolean, default: false },
   },
   { timestamps: true }
 );

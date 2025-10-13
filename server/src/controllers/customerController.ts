@@ -2,10 +2,12 @@
 import { Request, Response } from "express";
 import { Customer } from "../models/Customer";
 
-// Get all customers
+// Get all customers (non-archived by default)
 export const getCustomers = async (req: Request, res: Response): Promise<void> => {
   try {
-    const customers = await Customer.find();
+    const { includeArchived } = req.query;
+    const filter = includeArchived === 'true' ? {} : { is_archive: { $ne: true } };
+    const customers = await Customer.find(filter);
     res.status(200).json(customers);
   } catch (error) {
     res.status(500).json({ message: "Error fetching customers", error });
@@ -13,9 +15,16 @@ export const getCustomers = async (req: Request, res: Response): Promise<void> =
 };
 
 // Get computed customer summaries (balance, current services, status)
-export const getCustomerSummaries = async (_req: Request, res: Response): Promise<void> => {
+export const getCustomerSummaries = async (req: Request, res: Response): Promise<void> => {
   try {
+    const { includeArchived } = req.query;
+    
+    const matchStage = includeArchived === 'true' ? {} : { is_archive: { $ne: true } };
+    
     const summaries = await Customer.aggregate([
+      {
+        $match: matchStage
+      },
       {
         $lookup: {
           from: "transactions",
@@ -108,6 +117,7 @@ export const getCustomerSummaries = async (_req: Request, res: Response): Promis
           balance: 1,
           currentServiceCount: 1,
           status: 1,
+          is_archive: 1,
         },
       },
       {
@@ -223,22 +233,39 @@ export const deleteCustomer = async (req: Request, res: Response): Promise<void>
   }
 };
 
-// Delete all customers
+// Archive all customers (set is_archive: true instead of deleting)
 export const deleteAllCustomers = async (req: Request, res: Response): Promise<void> => {
   try {
-    const result = await Customer.deleteMany({});
-    res.status(200).json({ message: `${result.deletedCount} customers deleted successfully` });
+    const result = await Customer.updateMany(
+      { is_archive: { $ne: true } }, // Only archive non-archived customers
+      { $set: { is_archive: true } }
+    );
+    res.status(200).json({ message: `${result.modifiedCount} customers archived successfully` });
   } catch (error) {
-    res.status(500).json({ message: "Error deleting all customers", error });
+    res.status(500).json({ message: "Error archiving customers", error });
   }
 };
 
+// Get archived customers only
+export const getArchivedCustomers = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const customers = await Customer.find({ is_archive: true });
+    res.status(200).json(customers);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching archived customers", error });
+  }
+};
 
 // Update customer by cust_id
 export const updateCustomer = async (req: Request, res: Response): Promise<void> => {
   try {
     const { cust_id } = req.params;
     const updateData = req.body;
+
+    // Log archive/restore operations for customers
+    if (updateData.hasOwnProperty('is_archive')) {
+      console.log(`Customer ${cust_id} is_archive updated to: ${updateData.is_archive}`);
+    }
 
     const updated = await Customer.findOneAndUpdate(
       { cust_id },

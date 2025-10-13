@@ -11,6 +11,7 @@ export interface IDates extends Document {
   is_date?: Date;
   rpu_date?: Date;
   current_status?: number; // Added field
+  is_archive?: boolean; // Archive flag
 }
 
 const DatesSchema: Schema = new Schema<IDates>(
@@ -24,6 +25,7 @@ const DatesSchema: Schema = new Schema<IDates>(
     is_date: { type: Date, default: null },
     rpu_date: { type: Date, default: null },
     current_status: { type: Number, default: null }, // Added field
+    is_archive: { type: Boolean, default: false }, // Archive flag
   }
 );
 
