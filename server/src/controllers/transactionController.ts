@@ -5,6 +5,7 @@ import { Customer } from "../models/Customer";
 import { LineItem } from "../models/LineItem";
 import { Payment } from "../models/payments";
 import { Branch } from "../models/Branch";
+import { Dates } from "../models/Dates";
 import { generatePaymentId } from "../utils/generatePaymentId";
 import mongoose from "mongoose";
 
@@ -213,6 +214,31 @@ export const updateTransaction = async (req: Request, res: Response) => {
     // Special handling for payment_status to ensure it's valid
     if (updates.payment_status && !['NP', 'PARTIAL', 'PAID'].includes(updates.payment_status)) {
       return res.status(400).json({ error: "Invalid payment_status. Must be NP, PARTIAL, or PAID" });
+    }
+
+    // Special handling for is_archive - cascade to line items and dates
+    if (updates.hasOwnProperty('is_archive')) {
+      const archiveValue = updates.is_archive;
+      
+      // Get all line items for this transaction first (to get their IDs for updating dates)
+      const lineItems = await LineItem.find({ transaction_id: transaction_id });
+      const lineItemIds = lineItems.map(item => item.line_item_id);
+      
+      // Update all line items associated with this transaction
+      await LineItem.updateMany(
+        { transaction_id: transaction_id },
+        { $set: { is_archive: archiveValue } }
+      );
+      
+      // Update all dates associated with these line items
+      if (lineItemIds.length > 0) {
+        await Dates.updateMany(
+          { line_item_id: { $in: lineItemIds } },
+          { $set: { is_archive: archiveValue } }
+        );
+      }
+      
+      console.log(`Updated is_archive to ${archiveValue} for transaction ${transaction_id}, ${lineItems.length} line items, and their associated dates`);
     }
 
     // Update the transaction with the filtered updates

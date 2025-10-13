@@ -262,6 +262,11 @@ export const updateCustomer = async (req: Request, res: Response): Promise<void>
     const { cust_id } = req.params;
     const updateData = req.body;
 
+    // Log archive/restore operations for customers
+    if (updateData.hasOwnProperty('is_archive')) {
+      console.log(`Customer ${cust_id} is_archive updated to: ${updateData.is_archive}`);
+    }
+
     const updated = await Customer.findOneAndUpdate(
       { cust_id },
       updateData,
