@@ -126,7 +126,7 @@ export const getTopServices = async (req: Request, res: Response) => {
       // Map frontend branch IDs to actual branch_ids
       const branchIdMap: { [key: string]: string } = {
         "1": "SMVAL-B-NCR",    // SM Valenzuela
-        "2": "VAL-B-NCR",      // Valenzuela  
+        "2": "SMBAL-B-NCR",    // SM Baliwag
         "3": "SMGRA-B-NCR"     // SM Grand
       }
       
@@ -326,7 +326,7 @@ export const getSalesBreakdown = async (req: Request, res: Response) => {
       // Map frontend branch IDs to actual branch_ids
       const branchIdMap: { [key: string]: string } = {
         "1": "SMVAL-B-NCR",    // SM Valenzuela
-        "2": "VAL-B-NCR",      // Valenzuela  
+        "2": "SMBAL-B-NCR",    // SM Baliwag
         "3": "SMGRA-B-NCR"     // SM Grand
       }
       
