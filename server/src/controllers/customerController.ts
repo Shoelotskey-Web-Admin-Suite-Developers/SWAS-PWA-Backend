@@ -1,6 +1,7 @@
 // src/controllers/customerController.ts
 import { Request, Response } from "express";
 import { Customer } from "../models/Customer";
+import { Appointment, IAppointment } from "../models/Appointments";
 
 // Get all customers (non-archived by default)
 export const getCustomers = async (req: Request, res: Response): Promise<void> => {
@@ -210,6 +211,36 @@ export const getCustomerByNameAndPhone = async (req: Request, res: Response): Pr
     res.status(200).json(customer);
   } catch (error) {
     res.status(500).json({ message: "Error fetching customer by name and phone", error });
+  }
+};
+
+
+export const getCustomerByReferenceNo = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const referenceParam = (req.query.reference_no ?? req.query.referenceNo)?.toString().trim();
+
+    if (!referenceParam) {
+      res.status(400).json({ message: "reference_no is required" });
+      return;
+    }
+
+  const appointment = await Appointment.findOne({ reference_no: referenceParam }).lean<IAppointment>();
+
+    if (!appointment) {
+      res.status(404).json({ message: "Appointment not found for the provided reference number" });
+      return;
+    }
+
+    const customer = await Customer.findOne({ cust_id: appointment.cust_id }).lean();
+
+    if (!customer) {
+      res.status(404).json({ message: "Customer not found for the provided reference number" });
+      return;
+    }
+
+    res.status(200).json(customer);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching customer by reference number", error });
   }
 };
 
