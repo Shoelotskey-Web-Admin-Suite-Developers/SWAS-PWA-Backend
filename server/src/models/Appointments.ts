@@ -9,6 +9,7 @@ export interface IAppointment extends Document {
   time_start: string; // HH:mm
   time_end: string;   // HH:mm
   status: "Pending" | "Cancelled" | "Approved";
+  attendance_status?: "Verified" | "Missed" | null;
   reference_no: string;
 }
 
@@ -25,6 +26,11 @@ const AppointmentSchema: Schema = new Schema<IAppointment>(
       enum: ["Pending", "Cancelled", "Approved"],
       default: "Pending",
       required: true,
+    },
+    attendance_status: {
+      type: String,
+      enum: ["Verified", "Missed", null],
+      default: null,
     },
     reference_no: { type: String, required: true, unique: true },
   }
