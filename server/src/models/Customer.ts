@@ -11,6 +11,7 @@ export interface ICustomer extends Document {
   total_services: number;
   total_expenditure: number;
   is_archive: boolean;
+  credibility: number;
 }
 
 const CustomerSchema: Schema = new Schema<ICustomer>(
@@ -24,6 +25,7 @@ const CustomerSchema: Schema = new Schema<ICustomer>(
     total_services: { type: Number, default: 0 },
     total_expenditure: { type: Number, default: 0.0 },
     is_archive: { type: Boolean, default: false },
+    credibility: { type: Number, default: 100 },
   }
 );
 

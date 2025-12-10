@@ -134,3 +134,33 @@ export const updateAppointmentStatus = async (req: Request, res: Response) => {
     return res.status(500).json({ success: false, message: "Server error" });
   }
 };
+
+// Update appointment attendance status (verify arrival or flag as missed)
+export const updateAppointmentAttendance = async (req: Request, res: Response) => {
+  try {
+    const { appointment_ids } = req.body;
+    const { attendance_status } = req.body as { attendance_status: "Verified" | "Missed" };
+
+    if (!appointment_ids || !Array.isArray(appointment_ids) || appointment_ids.length === 0) {
+      return res.status(400).json({ success: false, message: "appointment_ids array is required" });
+    }
+
+    if (!attendance_status || !["Verified", "Missed"].includes(attendance_status)) {
+      return res.status(400).json({ success: false, message: "Invalid attendance_status. Must be 'Verified' or 'Missed'" });
+    }
+
+    const result = await Appointment.updateMany(
+      { appointment_id: { $in: appointment_ids } },
+      { $set: { attendance_status } }
+    );
+
+    return res.status(200).json({
+      success: true,
+      message: `${result.modifiedCount} appointments marked as ${attendance_status}`,
+      modifiedCount: result.modifiedCount,
+    });
+  } catch (error) {
+    console.error("Error updating appointment attendance:", error);
+    return res.status(500).json({ success: false, message: "Server error" });
+  }
+};

@@ -314,3 +314,46 @@ export const updateCustomer = async (req: Request, res: Response): Promise<void>
     res.status(500).json({ message: "Error updating customer", error });
   }
 };
+
+// Update customer credibility score
+export const updateCustomerCredibility = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { cust_id } = req.params;
+    const { action } = req.body as { action: "verify_arrival" | "flag_missed" };
+
+    if (!action || !["verify_arrival", "flag_missed"].includes(action)) {
+      res.status(400).json({ message: "Invalid action. Must be 'verify_arrival' or 'flag_missed'" });
+      return;
+    }
+
+    const customer = await Customer.findOne({ cust_id });
+    if (!customer) {
+      res.status(404).json({ message: "Customer not found" });
+      return;
+    }
+
+    // Calculate new credibility score
+    let newCredibility = customer.credibility || 100;
+    if (action === "verify_arrival") {
+      newCredibility = Math.min(newCredibility + 7, 120); // Max 120
+    } else if (action === "flag_missed") {
+      newCredibility = Math.max(newCredibility - 10, 70); // Min 70
+    }
+
+    // Update customer
+    customer.credibility = newCredibility;
+    await customer.save();
+
+    // Determine if customer can still book (credibility > 75)
+    const canBook = newCredibility > 75;
+
+    res.status(200).json({
+      success: true,
+      credibility: newCredibility,
+      canBook,
+      message: `Credibility ${action === "verify_arrival" ? "increased" : "decreased"} successfully`
+    });
+  } catch (error) {
+    res.status(500).json({ message: "Error updating customer credibility", error });
+  }
+};
