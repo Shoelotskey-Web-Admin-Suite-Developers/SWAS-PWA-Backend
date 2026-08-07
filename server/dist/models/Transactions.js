@@ -62,5 +62,6 @@ const TransactionSchema = new mongoose_1.Schema({
             ref: "Payment", // links to Payment.payment_id
         },
     ],
+    is_archive: { type: Boolean, default: false },
 }, { timestamps: true });
 exports.Transaction = mongoose_1.default.model("Transaction", TransactionSchema, "transactions");

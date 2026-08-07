@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.updateAppointmentStatus = exports.cancelAffectedAppointmentsController = exports.getPendingAppointments = exports.getApprovedAppointments = void 0;
+exports.updateAppointmentAttendance = exports.updateAppointmentStatus = exports.cancelAffectedAppointmentsController = exports.getPendingAppointments = exports.getApprovedAppointments = void 0;
 const Appointments_1 = require("../models/Appointments");
 const appointmentsService_1 = require("../controllers/appointmentsService");
 const pushNotifications_1 = require("../utils/pushNotifications");
@@ -118,3 +118,27 @@ const updateAppointmentStatus = async (req, res) => {
     }
 };
 exports.updateAppointmentStatus = updateAppointmentStatus;
+// Update appointment attendance status (verify arrival or flag as missed)
+const updateAppointmentAttendance = async (req, res) => {
+    try {
+        const { appointment_ids } = req.body;
+        const { attendance_status } = req.body;
+        if (!appointment_ids || !Array.isArray(appointment_ids) || appointment_ids.length === 0) {
+            return res.status(400).json({ success: false, message: "appointment_ids array is required" });
+        }
+        if (!attendance_status || !["Verified", "Missed"].includes(attendance_status)) {
+            return res.status(400).json({ success: false, message: "Invalid attendance_status. Must be 'Verified' or 'Missed'" });
+        }
+        const result = await Appointments_1.Appointment.updateMany({ appointment_id: { $in: appointment_ids } }, { $set: { attendance_status } });
+        return res.status(200).json({
+            success: true,
+            message: `${result.modifiedCount} appointments marked as ${attendance_status}`,
+            modifiedCount: result.modifiedCount,
+        });
+    }
+    catch (error) {
+        console.error("Error updating appointment attendance:", error);
+        return res.status(500).json({ success: false, message: "Server error" });
+    }
+};
+exports.updateAppointmentAttendance = updateAppointmentAttendance;

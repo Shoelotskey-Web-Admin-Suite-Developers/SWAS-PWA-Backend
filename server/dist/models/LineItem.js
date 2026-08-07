@@ -57,6 +57,7 @@ const LineItemSchema = new mongoose_1.Schema({
     before_img: { type: String, default: null },
     after_img: { type: String, default: null },
     pickUpNotice: { type: Date, default: null }, // <-- added field, default null
+    is_archive: { type: Boolean, default: false },
 }, {
     toJSON: { virtuals: true },
     toObject: { virtuals: true },

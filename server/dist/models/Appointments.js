@@ -49,5 +49,11 @@ const AppointmentSchema = new mongoose_1.Schema({
         default: "Pending",
         required: true,
     },
+    attendance_status: {
+        type: String,
+        enum: ["Verified", "Missed", null],
+        default: null,
+    },
+    reference_no: { type: String, required: true, unique: true },
 });
 exports.Appointment = mongoose_1.default.model("Appointment", AppointmentSchema, "appointments");

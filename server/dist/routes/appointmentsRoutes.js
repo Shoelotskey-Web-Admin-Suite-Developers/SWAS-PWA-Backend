@@ -12,4 +12,6 @@ router.get("/pending", appointmentsController_1.getPendingAppointments);
 router.post("/cancel-affected", appointmentsController_1.cancelAffectedAppointmentsController);
 // Update single appointment status by appointment_id
 router.put("/:appointment_id/status", appointmentsController_1.updateAppointmentStatus);
+// Update appointment attendance status (verify arrival or flag as missed)
+router.put("/attendance", appointmentsController_1.updateAppointmentAttendance);
 exports.default = router;

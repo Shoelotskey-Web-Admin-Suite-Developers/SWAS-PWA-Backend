@@ -1,29 +1,81 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.initSocket = initSocket;
+const WATCH_TARGETS = [
+    { collectionName: "line_items", event: "lineItemUpdated" },
+    { collectionName: "appointments", event: "appointmentUpdated" },
+    { collectionName: "unavailabilities", event: "unavailabilityUpdated" },
+];
 function initSocket(io, db) {
-    // Handle client connections
     io.on("connection", (socket) => {
         console.log("✅ Client connected:", socket.id);
         socket.on("disconnect", () => {
             console.log("❌ Client disconnected:", socket.id);
         });
     });
-    // Setup MongoDB Change Stream for `line_items`
-    const lineItemsCollection = db.collection("line_items");
-    lineItemsCollection.watch().on("change", (change) => {
-        console.log("📢 line_items updated:", change);
-        io.emit("lineItemUpdated", change);
-    });
-    // Setup MongoDB Change Stream for `appointments`
-    try {
-        const appointmentsCollection = db.collection("appointments");
-        appointmentsCollection.watch().on("change", (change) => {
-            console.log("📢 appointments updated:", change);
-            io.emit("appointmentUpdated", change);
+    const activeStreams = new Map();
+    const watchTarget = (target, resumeToken, retryDelay = 1000) => {
+        const collection = db.collection(target.collectionName);
+        console.log(`🔍 Starting watch for collection: ${target.collectionName}`);
+        let stream;
+        try {
+            stream = collection.watch([], resumeToken ? { resumeAfter: resumeToken } : undefined);
+            console.log(`✅ Change stream initialized for ${target.collectionName}`);
+        }
+        catch (err) {
+            const nextDelay = Math.min(retryDelay * 2, 30000);
+            console.error(`❌ Failed to start change stream for ${target.collectionName}, retrying in ${nextDelay}ms`, err);
+            setTimeout(() => watchTarget(target, resumeToken, nextDelay), nextDelay);
+            return;
+        }
+        activeStreams.set(target.event, stream);
+        let currentToken = resumeToken;
+        let backoffDelay = retryDelay;
+        const scheduleRestart = (reason, err) => {
+            if (activeStreams.get(target.event) !== stream)
+                return;
+            if (err) {
+                console.error(reason, err);
+            }
+            else {
+                console.warn(reason);
+            }
+            activeStreams.delete(target.event);
+            stream.close().catch(() => undefined);
+            const nextDelay = Math.min(backoffDelay * 2, 30000);
+            setTimeout(() => watchTarget(target, currentToken, nextDelay), nextDelay);
+        };
+        stream.on("change", (change) => {
+            currentToken = change._id;
+            backoffDelay = 1000;
+            console.log(`📢 ${target.collectionName} updated:`, change);
+            console.log(`📤 Emitting event: ${target.event}`);
+            console.log(`👥 Connected clients: ${io.sockets.sockets.size}`);
+            io.emit(target.event, change);
         });
-    }
-    catch (err) {
-        console.error("Error initializing appointments change stream:", err);
-    }
+        stream.on("error", (err) => {
+            scheduleRestart(`⚠️ Change stream error on ${target.collectionName}`, err);
+        });
+        stream.on("close", () => {
+            scheduleRestart(`🔒 Change stream closed for ${target.collectionName}`);
+        });
+    };
+    const openAllStreams = () => {
+        console.log("🚀 Opening all change streams...");
+        WATCH_TARGETS.forEach((target) => {
+            activeStreams.get(target.event)?.close().catch(() => undefined);
+            activeStreams.delete(target.event);
+            watchTarget(target);
+        });
+    };
+    openAllStreams();
+    db.on("disconnected", () => {
+        console.warn("⚠️ Mongo disconnected, closing change streams");
+        activeStreams.forEach((stream) => stream.close().catch(() => undefined));
+        activeStreams.clear();
+    });
+    db.on("reconnected", () => {
+        console.info("🔄 Mongo reconnected, reopening change streams");
+        openAllStreams();
+    });
 }

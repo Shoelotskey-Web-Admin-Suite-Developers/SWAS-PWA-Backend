@@ -18,10 +18,15 @@ const CURRENT_LOCATION_ENUM = ["Hub", "Branch"];
 const PAYMENT_STATUS_ENUM = ["NP", "PARTIAL", "PAID"];
 const PAYMENT_MODE_ENUM = ["Cash", "Bank", "GCash", "Other"];
 // ------------------- ID generators -------------------
-const generateCustomerId = async (branch_number) => {
-    const lastCust = await Customer_1.Customer.find({ cust_id: new RegExp(`CUST-${branch_number}-`) })
+const generateCustomerId = async (branch_number, session) => {
+    const lastCustQuery = Customer_1.Customer.find({ cust_id: new RegExp(`^CUST-${branch_number}-\\d+$`) })
+        .collation({ locale: "en", numericOrdering: true })
         .sort({ cust_id: -1 })
         .limit(1);
+    if (session) {
+        lastCustQuery.session(session);
+    }
+    const lastCust = await lastCustQuery;
     const lastNumber = lastCust[0] ? parseInt(lastCust[0].cust_id.split("-")[2], 10) : 0;
     // Use plain incremented number without zero-padding for the customer id suffix
     return `CUST-${branch_number}-${lastNumber + 1}`;
@@ -69,6 +74,12 @@ const validateServiceRequestInput = (data) => {
         errors.push(`payment_status must be one of ${PAYMENT_STATUS_ENUM.join(", ")}`);
     if (!PAYMENT_MODE_ENUM.includes(data.payment_mode))
         errors.push(`payment_mode must be one of ${PAYMENT_MODE_ENUM.join(", ")}`);
+    if (data.cust_bdate) {
+        const parsedDate = new Date(data.cust_bdate);
+        if (Number.isNaN(parsedDate.getTime())) {
+            errors.push("cust_bdate must be a valid date string");
+        }
+    }
     if (!Array.isArray(data.lineItems) || data.lineItems.length === 0) {
         errors.push("At least one line item is required");
     }
@@ -101,6 +112,9 @@ const createServiceRequest = async (req, res) => {
     session.startTransaction();
     try {
         const data = req.body;
+        const rawBirthdate = data.cust_bdate && data.cust_bdate !== ""
+            ? new Date(data.cust_bdate)
+            : null;
         // Validate input shape
         const validationErrors = validateServiceRequestInput(data);
         if (validationErrors.length > 0) {
@@ -108,6 +122,15 @@ const createServiceRequest = async (req, res) => {
             session.endSession();
             return res.status(400).json({ success: false, errors: validationErrors });
         }
+        const normalizedBirthdate = rawBirthdate && !Number.isNaN(rawBirthdate.getTime())
+            ? new Date(Date.UTC(rawBirthdate.getUTCFullYear(), rawBirthdate.getUTCMonth(), rawBirthdate.getUTCDate()))
+            : null;
+        const birthdateRange = normalizedBirthdate
+            ? {
+                $gte: normalizedBirthdate,
+                $lt: new Date(normalizedBirthdate.getTime() + 24 * 60 * 60 * 1000),
+            }
+            : null;
         // Fetch branch
         const branch = await Branch_1.Branch.findOne({ branch_id: data.branch_id }).session(session);
         if (!branch) {
@@ -129,16 +152,22 @@ const createServiceRequest = async (req, res) => {
             return res.status(400).json({ success: false, errors: [`Invalid service_id(s): ${invalidIds.join(", ")}`] });
         }
         // Check or create customer
-        let customer = await Customer_1.Customer.findOne({
+        const customerQuery = {
             cust_name: data.cust_name,
-            cust_bdate: data.cust_bdate || null,
-        }).session(session);
+        };
+        if (birthdateRange) {
+            customerQuery.cust_bdate = birthdateRange;
+        }
+        else {
+            customerQuery.$or = [{ cust_bdate: null }, { cust_bdate: { $exists: false } }];
+        }
+        let customer = await Customer_1.Customer.findOne(customerQuery).session(session);
         if (!customer) {
-            const cust_id = await generateCustomerId(branch_number);
+            const cust_id = await generateCustomerId(branch_number, session);
             customer = new Customer_1.Customer({
                 cust_id,
                 cust_name: data.cust_name,
-                cust_bdate: data.cust_bdate || null,
+                cust_bdate: normalizedBirthdate,
                 cust_address: data.cust_address || null,
                 cust_email: data.cust_email || null,
                 cust_contact: data.cust_contact || null,

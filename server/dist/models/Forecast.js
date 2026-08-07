@@ -38,8 +38,9 @@ exports.Forecast = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
 const ForecastSchema = new mongoose_1.Schema({
     date: { type: Date, required: true, unique: true },
+    week_start: { type: Date, required: false },
     total: { type: Number, required: true },
-    // dynamic keys like "SMGRA-B-NCR", "VAL-B-NCR"
+    // dynamic keys like "SMGRA-B-NCR", "SMBAL-B-NCR", "SMVAL-B-NCR"
     branches: {
         type: Map,
         of: Number,

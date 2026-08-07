@@ -3,14 +3,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.editUser = exports.deleteUser = exports.getUsers = exports.addUser = void 0;
+exports.getUserName = exports.getUserPosition = exports.editUser = exports.deleteUser = exports.getUsers = exports.addUser = void 0;
 const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const Users_1 = require("../models/Users");
 const addUser = async (req, res) => {
     try {
-        const { user_id, branch_id, password } = req.body;
+        const { user_id, branch_id, user_name, password, position } = req.body;
         if (!user_id || !branch_id || !password) {
-            return res.status(400).json({ message: "All fields are required." });
+            return res.status(400).json({ message: "user_id, branch_id, and password are required." });
         }
         // Check if user_id already exists
         const existingUser = await Users_1.User.findOne({ user_id });
@@ -22,7 +22,9 @@ const addUser = async (req, res) => {
         const newUser = new Users_1.User({
             user_id,
             branch_id,
+            user_name: typeof user_name === "string" && user_name.trim().length > 0 ? user_name.trim() : undefined,
             password: hashedPassword,
+            position: position ?? undefined,
         });
         await newUser.save();
         return res.status(201).json({
@@ -30,6 +32,8 @@ const addUser = async (req, res) => {
             user: {
                 user_id: newUser.user_id,
                 branch_id: newUser.branch_id,
+                user_name: newUser.user_name ?? null,
+                position: newUser.position,
             },
         });
     }
@@ -74,7 +78,7 @@ exports.deleteUser = deleteUser;
 const editUser = async (req, res) => {
     try {
         const { user_id } = req.params; // identify the user
-        const { branch_id, password } = req.body;
+        const { branch_id, user_name, password, position } = req.body;
         if (!user_id) {
             return res.status(400).json({ message: "User ID is required." });
         }
@@ -84,14 +88,22 @@ const editUser = async (req, res) => {
         }
         if (branch_id)
             user.branch_id = branch_id;
+        if (typeof user_name === "string") {
+            const trimmed = user_name.trim();
+            user.user_name = trimmed.length > 0 ? trimmed : null;
+        }
         if (password)
             user.password = await bcryptjs_1.default.hash(password, 10);
+        if (typeof position === "string" && position.trim().length > 0)
+            user.position = position.trim();
         await user.save();
         return res.status(200).json({
             message: "User updated successfully",
             user: {
                 user_id: user.user_id,
                 branch_id: user.branch_id,
+                user_name: user.user_name ?? null,
+                position: user.position,
             },
         });
     }
@@ -101,3 +113,41 @@ const editUser = async (req, res) => {
     }
 };
 exports.editUser = editUser;
+// Get a user's position by user_id
+const getUserPosition = async (req, res) => {
+    try {
+        const { user_id } = req.params;
+        if (!user_id) {
+            return res.status(400).json({ message: "User ID is required." });
+        }
+        const user = await Users_1.User.findOne({ user_id }, { user_id: 1, position: 1, _id: 0 });
+        if (!user) {
+            return res.status(404).json({ message: "User not found." });
+        }
+        return res.status(200).json({ user_id: user.user_id, position: user.position ?? null });
+    }
+    catch (error) {
+        console.error("Error fetching user position:", error);
+        return res.status(500).json({ message: "Server error" });
+    }
+};
+exports.getUserPosition = getUserPosition;
+// Get a user's name by user_id
+const getUserName = async (req, res) => {
+    try {
+        const { user_id } = req.params;
+        if (!user_id) {
+            return res.status(400).json({ message: "User ID is required." });
+        }
+        const user = await Users_1.User.findOne({ user_id }, { user_id: 1, user_name: 1, _id: 0 });
+        if (!user) {
+            return res.status(404).json({ message: "User not found." });
+        }
+        return res.status(200).json({ user_id: user.user_id, user_name: user.user_name ?? null });
+    }
+    catch (error) {
+        console.error("Error fetching user name:", error);
+        return res.status(500).json({ message: "Server error" });
+    }
+};
+exports.getUserName = getUserName;

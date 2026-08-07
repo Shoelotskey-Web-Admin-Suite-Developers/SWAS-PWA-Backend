@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.cancelAffectedAppointments = void 0;
 // src/services/appointmentsService.ts
 const Appointments_1 = require("../models/Appointments");
+const pushNotifications_1 = require("../utils/pushNotifications");
 const cancelAffectedAppointments = async (unavailability) => {
     try {
         const dateStr = unavailability.date_unavailable;
@@ -19,8 +20,58 @@ const cancelAffectedAppointments = async (unavailability) => {
         if (affectedAppointments.length === 0)
             return; // nothing to cancel
         const affectedIds = affectedAppointments.map(a => a._id);
+        // Update appointment statuses to cancelled
         await Appointments_1.Appointment.updateMany({ _id: { $in: affectedIds } }, { $set: { status: "Cancelled", cancel_reason: `Cancelled due to unavailability (${unavailability.type})` } });
         console.log(`Cancelled ${affectedAppointments.length} appointment(s) affected by unavailability on ${dateStr}`);
+        // Send push notifications to affected customers
+        if (affectedAppointments.length > 0) {
+            try {
+                const customerIds = affectedAppointments.map(appointment => appointment.cust_id);
+                // Format the date for notification message
+                const notificationDate = new Date(dateStr).toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                let notificationTitle = "Appointment Cancelled";
+                let notificationBody;
+                if (unavailability.type === "Full Day") {
+                    notificationBody = `Your appointment on ${notificationDate} has been cancelled due to unavailability for the full day.`;
+                }
+                else {
+                    // Partial Day
+                    const timeStart = unavailability.time_start || "N/A";
+                    const timeEnd = unavailability.time_end || "N/A";
+                    notificationBody = `Your appointment on ${notificationDate} has been cancelled due to unavailability from ${timeStart} to ${timeEnd}.`;
+                }
+                // Add additional data for the notification
+                const notificationData = {
+                    type: 'appointment_cancelled_unavailability',
+                    date: dateStr,
+                    unavailabilityType: unavailability.type,
+                    ...(unavailability.type === "Partial Day" && {
+                        timeStart: unavailability.time_start,
+                        timeEnd: unavailability.time_end
+                    }),
+                    reason: 'unavailability'
+                };
+                // Send bulk notifications to all affected customers
+                const notificationResult = await (0, pushNotifications_1.sendBulkNotifications)(customerIds, notificationTitle, notificationBody, notificationData);
+                console.log(`Push notifications sent for cancelled appointments:`, {
+                    totalSent: notificationResult.totalSent,
+                    successful: notificationResult.successful,
+                    failed: notificationResult.failed
+                });
+                if (notificationResult.failed > 0) {
+                    console.warn(`${notificationResult.failed} notifications failed to send for unavailability cancellations`);
+                }
+            }
+            catch (notificationError) {
+                // Log notification error but don't fail the cancellation process
+                console.error("Failed to send push notifications for cancelled appointments:", notificationError);
+            }
+        }
     }
     catch (err) {
         console.error("Error cancelling affected appointments:", err);

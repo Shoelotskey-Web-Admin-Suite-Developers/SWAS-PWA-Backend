@@ -35,6 +35,7 @@ const login = async (req, res) => {
             user: {
                 user_id: user.user_id,
                 branch_id: user.branch_id,
+                position: user.position ?? null,
             },
         });
     }
