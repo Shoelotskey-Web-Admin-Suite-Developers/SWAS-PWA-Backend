@@ -34,17 +34,15 @@ var __importStar = (this && this.__importStar) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Branch = void 0;
-/// src/models/Branch.ts
 const mongoose_1 = __importStar(require("mongoose"));
 const BranchSchema = new mongoose_1.Schema({
-    branch_id: { type: String, required: true, unique: true }, // <CODE>-<TYPE>-LOC
+    branch_id: { type: String, required: true, unique: true },
     branch_number: { type: Number, required: true, unique: true },
-    branch_name: { type: String, required: true, maxlength: 100 }, // NEW
+    branch_name: { type: String, required: true, maxlength: 100 },
     location: { type: String, required: true, maxlength: 100 },
     branch_code: { type: String, required: true, unique: true, maxlength: 20 },
     type: { type: String, enum: ["H", "B", "W"], required: true },
     fb_link: { type: String, maxlength: 200 },
-}
-// no timestamps
-);
+    gmap_link: { type: String, maxlength: 500 },
+});
 exports.Branch = mongoose_1.default.model("Branch", BranchSchema, "branches");
