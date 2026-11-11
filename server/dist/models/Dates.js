@@ -45,6 +45,8 @@ const DatesSchema = new mongoose_1.Schema({
     rb_date: { type: Date, default: null },
     is_date: { type: Date, default: null },
     rpu_date: { type: Date, default: null },
+    current_status: { type: Number, default: null }, // Added field
+    is_archive: { type: Boolean, default: false }, // Archive flag
 });
 // Explicitly set the collection name if needed
 exports.Dates = mongoose_1.default.model("Dates", DatesSchema, "dates");

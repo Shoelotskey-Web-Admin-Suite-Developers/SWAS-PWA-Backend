@@ -29,6 +29,8 @@ export const getBranchByBranchId = async (req: Request, res: Response) => {
         branch_number: branch.branch_number,
         location: branch.location,
         type: branch.type,
+        fb_link: branch.fb_link,
+        gmap_link: branch.gmap_link,
       },
     });
   } catch (err: any) {

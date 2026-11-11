@@ -45,6 +45,8 @@ const CustomerSchema = new mongoose_1.Schema({
     cust_contact: { type: String, default: null },
     total_services: { type: Number, default: 0 },
     total_expenditure: { type: Number, default: 0.0 },
+    is_archive: { type: Boolean, default: false },
+    credibility: { type: Number, default: 100 },
 });
 // Explicit collection name
 exports.Customer = mongoose_1.default.model("Customer", CustomerSchema, "customers");

@@ -3,12 +3,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getAllTransactions = exports.applyPayment = exports.getTransactionById = void 0;
+exports.deleteTransaction = exports.getAllTransactions = exports.updateTransaction = exports.applyPayment = exports.getTransactionById = void 0;
 const Transactions_1 = require("../models/Transactions");
 const Customer_1 = require("../models/Customer");
 const LineItem_1 = require("../models/LineItem");
 const payments_1 = require("../models/payments");
 const Branch_1 = require("../models/Branch");
+const Dates_1 = require("../models/Dates");
 const generatePaymentId_1 = require("../utils/generatePaymentId");
 const mongoose_1 = __importDefault(require("mongoose"));
 // use centralized generatePaymentId
@@ -176,10 +177,62 @@ const applyPayment = async (req, res) => {
     }
 };
 exports.applyPayment = applyPayment;
-// GET /transactions
-const getAllTransactions = async (_req, res) => {
+// Update a transaction by ID
+const updateTransaction = async (req, res) => {
     try {
-        const transactions = await Transactions_1.Transaction.find();
+        const { transaction_id } = req.params;
+        const updates = req.body;
+        if (!transaction_id) {
+            return res.status(400).json({ error: "transaction_id required" });
+        }
+        // Find transaction by transaction_id
+        const transaction = await Transactions_1.Transaction.findOne({ transaction_id });
+        if (!transaction) {
+            return res.status(404).json({ error: "Transaction not found" });
+        }
+        // Fields that should not be directly updated
+        const restrictedFields = ['transaction_id', '_id', '__v', 'createdAt', 'updatedAt'];
+        // Remove restricted fields from updates
+        restrictedFields.forEach(field => delete updates[field]);
+        // Special handling for payment_status to ensure it's valid
+        if (updates.payment_status && !['NP', 'PARTIAL', 'PAID'].includes(updates.payment_status)) {
+            return res.status(400).json({ error: "Invalid payment_status. Must be NP, PARTIAL, or PAID" });
+        }
+        // Special handling for is_archive - cascade to line items and dates
+        if (updates.hasOwnProperty('is_archive')) {
+            const archiveValue = updates.is_archive;
+            // Get all line items for this transaction first (to get their IDs for updating dates)
+            const lineItems = await LineItem_1.LineItem.find({ transaction_id: transaction_id });
+            const lineItemIds = lineItems.map(item => item.line_item_id);
+            // Update all line items associated with this transaction
+            await LineItem_1.LineItem.updateMany({ transaction_id: transaction_id }, { $set: { is_archive: archiveValue } });
+            // Update all dates associated with these line items
+            if (lineItemIds.length > 0) {
+                await Dates_1.Dates.updateMany({ line_item_id: { $in: lineItemIds } }, { $set: { is_archive: archiveValue } });
+            }
+            console.log(`Updated is_archive to ${archiveValue} for transaction ${transaction_id}, ${lineItems.length} line items, and their associated dates`);
+        }
+        // Update the transaction with the filtered updates
+        Object.assign(transaction, updates);
+        // Save the updated transaction
+        await transaction.save();
+        return res.status(200).json({ success: true, transaction });
+    }
+    catch (err) {
+        console.error("Error updating transaction:", err);
+        let message = "Unknown error";
+        if (err instanceof Error)
+            message = err.message;
+        return res.status(500).json({ error: "Server error", message });
+    }
+};
+exports.updateTransaction = updateTransaction;
+// GET /transactions
+const getAllTransactions = async (req, res) => {
+    try {
+        const { includeArchived } = req.query;
+        const filter = includeArchived === 'true' ? {} : { is_archive: { $ne: true } };
+        const transactions = await Transactions_1.Transaction.find(filter);
         res.status(200).json(transactions);
     }
     catch (error) {
@@ -188,3 +241,25 @@ const getAllTransactions = async (_req, res) => {
     }
 };
 exports.getAllTransactions = getAllTransactions;
+// DELETE /transactions/:transaction_id
+const deleteTransaction = async (req, res) => {
+    try {
+        const { transaction_id } = req.params;
+        if (!transaction_id) {
+            return res.status(400).json({ error: "transaction_id required" });
+        }
+        const result = await Transactions_1.Transaction.deleteOne({ transaction_id });
+        if (result.deletedCount === 0) {
+            return res.status(404).json({ error: "Transaction not found" });
+        }
+        return res.status(200).json({ success: true, message: "Transaction deleted successfully" });
+    }
+    catch (err) {
+        console.error("Error deleting transaction:", err);
+        let message = "Unknown error";
+        if (err instanceof Error)
+            message = err.message;
+        return res.status(500).json({ error: "Server error", message });
+    }
+};
+exports.deleteTransaction = deleteTransaction;

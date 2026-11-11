@@ -39,7 +39,9 @@ const mongoose_1 = __importStar(require("mongoose"));
 const UserSchema = new mongoose_1.Schema({
     user_id: { type: String, required: true, unique: true }, // e.g., NCR-VAL-B
     branch_id: { type: String, required: true, ref: "Branch" },
+    user_name: { type: String, default: null },
     password: { type: String, required: true },
+    position: { type: String },
 }
 // no timestamps
 );

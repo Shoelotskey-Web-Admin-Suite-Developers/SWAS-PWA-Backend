@@ -25,6 +25,8 @@ const paymentsRoutes_1 = __importDefault(require("./routes/paymentsRoutes"));
 const analyticsRoutes_1 = __importDefault(require("./routes/analyticsRoutes"));
 const socket_1 = require("./socket");
 const lineItemImageRoutes_1 = __importDefault(require("./routes/lineItemImageRoutes"));
+const datesRoutes_1 = __importDefault(require("./routes/datesRoutes"));
+const batchRoutes_1 = __importDefault(require("./routes/batchRoutes"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 const httpServer = (0, http_1.createServer)(app);
@@ -51,7 +53,9 @@ app.use("/api/service-request", serviceRequestRoutes_1.default);
 app.use("/transactions", transactionRoutes_1.default);
 app.use("/api/line-item-image", lineItemImageRoutes_1.default);
 app.use("/api/transactions", transactionRoutes_1.default);
+app.use("/api/dates", datesRoutes_1.default);
 app.use("/api/payments", paymentsRoutes_1.default);
+app.use("/api/batch", batchRoutes_1.default);
 app.use("/api/analytics", analyticsRoutes_1.default);
 // Test route
 app.get("/", (req, res) => {

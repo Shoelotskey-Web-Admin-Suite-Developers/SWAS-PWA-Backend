@@ -7,4 +7,6 @@ router.post("/users", userController_1.addUser);
 router.get("/users", userController_1.getUsers);
 router.delete("/users/:user_id", userController_1.deleteUser);
 router.put("/users/:user_id", userController_1.editUser); // <-- Edit user
+router.get("/users/:user_id/position", userController_1.getUserPosition);
+router.get("/users/:user_id/name", userController_1.getUserName);
 exports.default = router;

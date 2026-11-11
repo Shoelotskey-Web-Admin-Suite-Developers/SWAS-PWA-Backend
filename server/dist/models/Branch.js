@@ -43,6 +43,7 @@ const BranchSchema = new mongoose_1.Schema({
     location: { type: String, required: true, maxlength: 100 },
     branch_code: { type: String, required: true, unique: true, maxlength: 20 },
     type: { type: String, enum: ["H", "B", "W"], required: true },
+    fb_link: { type: String, maxlength: 200 },
 }
 // no timestamps
 );
