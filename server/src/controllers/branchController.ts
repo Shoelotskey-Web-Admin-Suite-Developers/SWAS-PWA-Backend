@@ -48,8 +48,12 @@ export const createBranch = async (req: Request, res: Response) => {
       location, 
       branch_code, 
       type, 
-      fb_link 
+      fb_link,
+      gmap_link
     } = req.body;
+
+    console.log("Received branch data:", req.body);
+    console.log("Received Google Maps link:", gmap_link);
 
     // Validate required fields
     if (!branch_name || !location || !branch_code || !type) {
@@ -97,6 +101,7 @@ export const createBranch = async (req: Request, res: Response) => {
       location,
       type,
       fb_link: fb_link || null,
+      gmap_link: gmap_link || null,
     });
 
     await newBranch.save();
@@ -129,7 +134,8 @@ export const updateBranch = async (req: Request, res: Response) => {
       location, 
       branch_code, 
       type, 
-      fb_link 
+      fb_link, 
+      gmap_link
     } = req.body;
 
     // Find the branch
@@ -193,6 +199,7 @@ export const updateBranch = async (req: Request, res: Response) => {
       branch.branch_id = `${branch.branch_code}-${type}-${locationShort}`;
     }
     if (fb_link !== undefined) branch.fb_link = fb_link;
+    if (gmap_link !== undefined) branch.gmap_link = gmap_link;
 
     await branch.save();
 

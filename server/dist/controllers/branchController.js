@@ -45,7 +45,9 @@ exports.getBranchByBranchId = getBranchByBranchId;
 // Create a new branch
 const createBranch = async (req, res) => {
     try {
-        const { branch_name, location, branch_code, type, fb_link } = req.body;
+        const { branch_name, location, branch_code, type, fb_link, gmap_link } = req.body;
+        console.log("Received branch data:", req.body);
+        console.log("Received Google Maps link:", gmap_link);
         // Validate required fields
         if (!branch_name || !location || !branch_code || !type) {
             return res.status(400).json({
@@ -86,6 +88,7 @@ const createBranch = async (req, res) => {
             location,
             type,
             fb_link: fb_link || null,
+            gmap_link: gmap_link || null,
         });
         await newBranch.save();
         res.status(201).json({
@@ -112,7 +115,7 @@ exports.createBranch = createBranch;
 const updateBranch = async (req, res) => {
     try {
         const { branchId } = req.params;
-        const { branch_name, location, branch_code, type, fb_link } = req.body;
+        const { branch_name, location, branch_code, type, fb_link, gmap_link } = req.body;
         // Find the branch
         const branch = await Branch_1.Branch.findOne({ branch_id: branchId });
         if (!branch) {
@@ -171,6 +174,8 @@ const updateBranch = async (req, res) => {
         }
         if (fb_link !== undefined)
             branch.fb_link = fb_link;
+        if (gmap_link !== undefined)
+            branch.gmap_link = gmap_link;
         await branch.save();
         res.status(200).json({
             message: "Branch updated successfully",
